@@ -1,0 +1,13 @@
+from typing import Union
+
+
+def div(x: int, y: Union[int, float]) -> float: ...
+
+
+def mult(x: Union[int, str], y: int) -> Union[int, str]: ...
+
+
+def soma(x: Union[int, str, float, complex], y: Union[int, str, float]) -> Union[int, str, float, complex]: ...
+
+
+def sub(x: Union[int, float], y: Union[int, float]) -> Union[int, float]: ...
