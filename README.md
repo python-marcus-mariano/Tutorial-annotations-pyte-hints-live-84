@@ -86,7 +86,7 @@ monkeytype stub minha_lib > stub.pyi
 
 ```
 
-Create stub 
+Apply monkeytype annotations in an stub file
 
 ```sh
 
